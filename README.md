@@ -6,7 +6,7 @@ In dem Paket ist eine htaccess und eine Wartungsseite. Die htaccess leitet alle 
 
 ## Vorbereitung
 In der htaccess die eigene IP abändern - eigene IP siehe http://www.e-spin.de/software.html#htaccess-wartungsseite
-In der Wartungseite die Platzhalter <SEITENNAME>, <DOMAIN>, <DATUM>, <Uhrzeit> mit den eigenen Angaben ersetzen.
+In der Wartungseite die Platzhalter `<SEITENNAME>`, `<DOMAIN>`, `<DATUM>`, `<Uhrzeit>` mit den eigenen Angaben ersetzen.
 
 Alternativ kann der Inhalt der htaccess in die eigene htaccess übernommen werden - zum Abschalten des Wartungsmodus die Zeilen mit # auskommentieren.
 
