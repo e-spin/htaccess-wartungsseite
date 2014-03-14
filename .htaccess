@@ -1,0 +1,9 @@
+## Wartungsmodus
+RewriteEngine On
+RewriteBase /
+
+## eigene IP-Adresse eingeben: 99\.100\.101\.61
+## siehe http://www.e-spin.de/software.html#htaccess-wartungsseite
+RewriteCond %{REMOTE_ADDR} !^99\.100\.81\.248
+RewriteCond %{REQUEST_URI} !^/_wartungsseite\.php$
+RewriteRule ^(.*)$ http://www.meine-domain.de/_wartungsseite.php [R=307,L]
